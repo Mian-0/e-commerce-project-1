@@ -144,7 +144,7 @@ body {
     color: #369e62;
   }
   .sliderItem:nth-child(2) .sliderPrice {
-    color: white;
+    color: rebeccapurple;
   }
   .sliderItem:nth-child(3) .sliderPrice {
     color: teal;
