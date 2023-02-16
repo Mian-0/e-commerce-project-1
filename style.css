@@ -1,3 +1,4 @@
+/* General Styling */
 html{
   scroll-behavior: smooth;
 }
@@ -7,6 +8,8 @@ body {
   padding: 0;
   margin: 0;
 }
+
+/* Header */
 
 nav {
   background-color: #111;
@@ -55,7 +58,9 @@ nav {
   color: lightgray;
   font-weight: 400;
 }
+/* Header Completed */
 
+/* Slider */
 .slider {
   background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
@@ -159,7 +164,9 @@ nav {
 .sliderItem:nth-child(5) .sliderPrice {
   color: cornsilk;
 }
+/* Slider Completed */
 
+/* Features */
 .features {
   display: flex;
   align-items: center;
@@ -199,6 +206,7 @@ nav {
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
 }
 
+/* Modal */
 .payment {
   width: 500px;
   height: 500px;
@@ -283,6 +291,7 @@ label{
   cursor: pointer;
   padding: 2px;
 }
+/* Modal Completed */
 
 .productImg{
   width: 50%;
@@ -345,7 +354,9 @@ label{
   background-color: white;
   color: black;
 }
+/* Product Completed */
 
+/* Gallery */
 .gallery{
   padding: 50px;
   display: flex;
@@ -389,7 +400,9 @@ label{
   font-weight: 600;
   cursor: pointer;
 }
+/* Gallery Completed */
 
+/* Footer */
 footer{
   display: flex;
 }
@@ -448,3 +461,4 @@ footer{
   font-weight: 300;
   font-style: 14px;
 }
+/* Footer Completed */
